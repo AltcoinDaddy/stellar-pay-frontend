@@ -1,0 +1,42 @@
+ {/* <h1 className="text-4xl font-bold mb-6">Stellar Merchant Tool</h1>
+      <p className="text-lg mb-8">Welcome to your Stellar payment processing dashboard</p> */}
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <Link href="/dashboard">
+          <div className="bg-blue-50 p-6 rounded-lg shadow hover:shadow-md transition-shadow">
+            <h2 className="text-xl font-semibold mb-2">Dashboard</h2>
+            <p>View your account summary and recent transactions</p>
+          </div>
+        </Link>
+        
+        <Link href="/qr-generator">
+          <div className="bg-green-50 p-6 rounded-lg shadow hover:shadow-md transition-shadow">
+            <h2 className="text-xl font-semibold mb-2">QR Generator</h2>
+            <p>Create payment QR codes for your customers</p>
+          </div>
+        </Link>
+        
+        <Link href="/payments">
+          <div className="bg-purple-50 p-6 rounded-lg shadow hover:shadow-md transition-shadow">
+            <h2 className="text-xl font-semibold mb-2">Payments</h2>
+            <p>Track and manage your payment history</p>
+          </div>
+        </Link>
+        
+        <Link href="/account">
+          <div className="bg-amber-50 p-6 rounded-lg shadow hover:shadow-md transition-shadow">
+            <h2 className="text-xl font-semibold mb-2">Account</h2>
+            <p>Manage your Stellar account settings</p>
+          </div>
+        </Link>
+      </div>
+      
+      <div className="mt-12">
+        <Button 
+          onClick={handleGetStarted} 
+          disabled={isLoading}
+          className="bg-blue-600 hover:bg-blue-700"
+        >
+          {isLoading ? 'Loading...' : 'Get Started'}
+        </Button>
+      </div> */}
