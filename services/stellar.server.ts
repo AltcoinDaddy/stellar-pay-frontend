@@ -17,7 +17,7 @@ export class StellarService {
   private server: any;
 
   constructor() {
-    this.server = new StellarSDK.Server(HORIZON_URL);
+    this.server = new StellarSDK.Horizon.Server(HORIZON_URL);
   }
 
   /**

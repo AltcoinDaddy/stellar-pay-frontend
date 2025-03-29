@@ -40,7 +40,7 @@ export default function CreateAccountPage() {
   };
 
   return (
-    <div className="bg-black text-white">
+    <div className="">
       <h1 className="text-2xl font-bold mb-4">Create New Stellar Account</h1>
       <p className="mb-6">Generate a new Stellar keypair</p>
       
@@ -55,7 +55,7 @@ export default function CreateAccountPage() {
             
             <div className="mb-6">
               <p className="text-yellow-700 bg-yellow-50 p-3 rounded">
-                <span className="font-medium">Important:</span> The account will not be active on the Stellar network until it receives at least 1 XLM. You'll need to fund this account from an existing account or exchange.
+                <span className="font-medium">Important:</span> The account will not be active on the Stellar network until it receives at least 1 XLM. You&apos;ll need to fund this account from an existing account or exchange.
               </p>
             </div>
             
@@ -78,7 +78,7 @@ export default function CreateAccountPage() {
             <div className="mb-6 p-4 bg-green-50 text-green-800 rounded">
               <p className="font-medium">Account created successfully!</p>
               <p className="text-sm mt-2">
-                Make sure to save your secret key somewhere safe. You won't be able to recover it if lost.
+                Make sure to save your secret key somewhere safe. You won&apos;t be able to recover it if lost.
               </p>
             </div>
             
@@ -161,7 +161,7 @@ export default function CreateAccountPage() {
           <div>
             <h3 className="font-medium">3. Add trustlines (optional)</h3>
             <p className="mt-1">
-              To hold assets other than XLM, you'll need to set up trustlines for those assets.
+              To hold assets other than XLM, you&apos;ll need to set up trustlines for those assets.
             </p>
           </div>
         </div>

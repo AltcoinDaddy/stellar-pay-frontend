@@ -60,7 +60,7 @@ export default function AccountDetails({ publicKey, secretKey }: AccountDetailsP
       <div className="p-4 bg-yellow-50 border border-yellow-200 rounded">
         <h3 className="font-medium text-yellow-800">Account Not Found</h3>
         <p className="text-yellow-700">
-          This account doesn't exist on the Stellar network yet. You need to fund it with at least 1 XLM to activate it.
+          This account doesn&apos;t exist on the Stellar network yet. You need to fund it with at least 1 XLM to activate it.
         </p>
       </div>
     );
